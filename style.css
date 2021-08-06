@@ -1,6 +1,11 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: #E1E2A0;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .heading {
@@ -9,6 +14,7 @@ body {
     font-size: 3.5rem;
     color: white;
     margin-bottom: 0%;
+    width: 100%;
 }
 
 .sec1 {
@@ -49,6 +55,12 @@ img {
 
 .para {
     display: none;
+}
+
+@media (max-width:663px) {
+    .heading {
+        font-size: 2rem;
+    }
 }
 
 @media (min-width:992px) {
