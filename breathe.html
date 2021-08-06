@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="breathe.css" rel="stylesheet">
+    <link rel="icon" href="https://i.pinimg.com/originals/8b/ee/7b/8bee7b7d668becb00bb3b2e3d5f2b307.png " type="image/icon type">
+
+    <title>Track your Breath</title>
+    <!-- https://cdn.dribbble.com/users/2552641/screenshots/6622063/dribbble_icon1-01_1x.jpg?compress=1&resize=400x300 -->
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="./index.html"><img class="logo" src="./Open Doodles - Meditating.png" width="60"></a>
+
+        <div class="tooltip">
+
+            <a class="timer" id="openModal" href="#">&#10057;</a>
+            <span class="tooltiptext">Select Timer to Start</span>
+
+        </div>
+    </nav>
+    <div class='ripple-background'>
+        <div class='circle xxlarge shade1'></div>
+        <div class='circle xlarge shade2'>
+            <div class='circle large shade3'>
+
+            </div>
+            <h1 class="rules"></h1>
+        </div>
+    </div>
+
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="main-content">
+                <h1 class="ModalHeading">Select Timer to start Pranayama</h1>
+                <div class="btn-grp">
+                    <button class="min-2">2 Minutes</button>
+                    <button class="min-5">5 Minutes</button>
+                    <button class="min-10">10 Minutes</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <audio class="audio">
+        <source src="./ding_dong_doorbell.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="points">
+        <h1 class="relax">Relax</h1>
+        <p>Inhale slowly through the right nostrill</p>
+        <p>while closing the other with your ring finger</p>
+        <p>Take a moment and then exhale through the left nostrill</p>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+
+
+</html>
